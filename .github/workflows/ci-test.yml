@@ -5,9 +5,9 @@ name: .NET
 run-name: "Flujo CI - TEST"
 on:
   push:
-    branches: [ "bak" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "bak" ]
+    branches: [ "main" ]
 
 jobs:
   build:
